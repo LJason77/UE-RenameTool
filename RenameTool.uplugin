@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RenameTool",
+	"Description": "重命名工具。",
+	"Category": "Other",
+	"CreatedBy": "LJason",
+	"CreatedByURL": "https://github.com/LJason77",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RenameTool",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"Platforms": [
+				"Win64"
+			]
+		}
+	]
+}
