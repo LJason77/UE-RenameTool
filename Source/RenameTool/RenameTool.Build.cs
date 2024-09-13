@@ -7,12 +7,13 @@ public class RenameTool : ModuleRules
 	public RenameTool(ReadOnlyTargetRules target) : base(target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		OptimizeCode = CodeOptimization.InShippingBuildsOnly;
 
 		PublicDependencyModuleNames.AddRange(
 			new[]
 			{
-				"Core"
+				"Core",
+				"UMG",
+				"Blutility"
 			}
 		);
 
@@ -23,7 +24,11 @@ public class RenameTool : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore"
+				"SlateCore",
+				"UMGEditor",
+				"UnrealEd",
+				"ScriptableEditorWidgets",
+				"ToolMenus"
 			}
 		);
 	}
