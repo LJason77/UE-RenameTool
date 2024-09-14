@@ -32,7 +32,7 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RenameDetails", meta = (DisplayName = "替换"))
     FString Replace;
 
-    UPROPERTY(EditDefaultsOnly)
+    UPROPERTY(EditDefaultsOnly, Category = "RenameResult")
     TSubclassOf<URenameResult> RenameResult = nullptr;
 
 protected:
